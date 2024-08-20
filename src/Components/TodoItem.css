@@ -1,0 +1,50 @@
+/* TodoItem.css */
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+  }
+  
+  .todo-item.completed .todo-text {
+    text-decoration: line-through;
+    color: #a9a9a9;
+  }
+  
+  .todo-checkbox {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .todo-content {
+    flex-grow: 1;
+  }
+  
+  .todo-text {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .todo-time {
+    display: block;
+    font-size: 12px;
+    color: #a9a9a9;
+    margin-top: 5px;
+  }
+  
+  .todo-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-delete, .todo-edit {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
